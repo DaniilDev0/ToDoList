@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/todo.css">
+  <title>To Do list </title>
+</head>
+<body>
+  <div class="todo-title">
+    <span>ToDoList</span>
+  </div>
+
+  <div class="wrapper">
+    <div class="task-input">
+      <input type="text" placeholder="Запиши, чтобы не забыть">
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <span class="active" id="all">Все</span>
+        <span id="pending">В ожидании</span>
+        <span id="completed">Сделано</span>
+      </div>
+      <button class="clear-btn">Очистить</button>
+    </div>
+    <ul class="task-box"></ul>
+  </div>
+  <script src="/todo.js"></script>
+</body>
+</html>
